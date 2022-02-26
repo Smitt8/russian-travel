@@ -11,3 +11,9 @@
     row-gap: 25px;
   }
 }
+
+@media screen  and (max-width: 320px) {
+  .place__paragraphs {
+    grid-row: 4;
+  }
+}
