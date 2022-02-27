@@ -5,15 +5,24 @@
   color: #fff;
   font-size: 96px;
   font-weight: bold;
-  line-height: 100px;
+  line-height: 1.04;
   text-align: center;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 670px){
+  .lead__title {
+    max-width: 500px;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 425px){
   .lead__title {
     max-width: 288px;
-    font-weight: 900;
+    font-weight: bold;
     font-size: 40px;
-    line-height: 44px;
+    line-height: 1.1;
   }
 }
